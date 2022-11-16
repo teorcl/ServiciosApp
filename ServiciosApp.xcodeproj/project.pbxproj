@@ -13,6 +13,8 @@
 		ABC374E529245EE30085DDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC374E329245EE30085DDA3 /* Main.storyboard */; };
 		ABC374E729245EEB0085DDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC374E629245EEB0085DDA3 /* Assets.xcassets */; };
 		ABC374EA29245EEB0085DDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC374E829245EEB0085DDA3 /* LaunchScreen.storyboard */; };
+		ABC374F229245F840085DDA3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC374F129245F840085DDA3 /* UserManager.swift */; };
+		ABC374F42924602C0085DDA3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC374F32924602C0085DDA3 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ABC374E629245EEB0085DDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC374E929245EEB0085DDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABC374EB29245EEB0085DDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC374F129245F840085DDA3 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		ABC374F32924602C0085DDA3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ABC374E629245EEB0085DDA3 /* Assets.xcassets */,
 				ABC374E829245EEB0085DDA3 /* LaunchScreen.storyboard */,
 				ABC374EB29245EEB0085DDA3 /* Info.plist */,
+				ABC374F129245F840085DDA3 /* UserManager.swift */,
+				ABC374F32924602C0085DDA3 /* UserModel.swift */,
 			);
 			path = ServiciosApp;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				ABC374E229245EE30085DDA3 /* ViewController.swift in Sources */,
 				ABC374DE29245EE30085DDA3 /* AppDelegate.swift in Sources */,
+				ABC374F229245F840085DDA3 /* UserManager.swift in Sources */,
+				ABC374F42924602C0085DDA3 /* UserModel.swift in Sources */,
 				ABC374E029245EE30085DDA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
